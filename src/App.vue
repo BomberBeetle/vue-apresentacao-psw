@@ -1,15 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h3>Olá Vue!</h3>
+
+  <Adder msg="Welcome to Your Vue.js App"/>
+  <Adder msg="Welcome to Your Vue.js App"/>
+  <Adder msg="Welcome to Your Vue.js App"/>
+  <Adder msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Adder from './components/Adder.vue'
 
 export default {
-  name: 'App',
+  name: 'BigApp',
   components: {
-    HelloWorld
+    Adder
   }
 }
 </script>
